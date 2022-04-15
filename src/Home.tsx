@@ -552,12 +552,12 @@ const Home = (props: HomeProps) => {
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><p>LOST CATS MINTING PAGE WELCOME!</p>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
+                        {/* <li><a href="http://localhost:3000/" target="_blank"
                                rel="noopener noreferrer">Menu 2</a></li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                               rel="noopener noreferrer">Menu 3</a></li> */}
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -565,12 +565,12 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+                <ShimmerTitle>LOST CATS MINTING PAGE !</ShimmerTitle>
                 <br/>
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>LOST CATS</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -658,31 +658,23 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>LOST CATS</GoldTitle></LogoAligner>
+                            <p>Welcome<br/> <br/></p> <p> 1000 Unique Lost Cats roaming the blockchain!</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY MINT A LOST CAT</GoldTitle></LogoAligner>
+                            <p>
+                                All verified holders will receive a Free 3D Lost Cats NFT airdropped from the second collection! <br/><br/>
+
+                                Portions of the sales will be donated to charitable organizations supporting animals in distress! <br/><br/>
+
+                                Be apart of an amazing community with exclusive holder Giveaways every week!</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>SOCIALS</GoldTitle></LogoAligner>
+                            <a href="https://twitter.com/nftlostcats">Twitter</a><br/>
+                            <a href="https://www.instagram.com/nftlostcats/">Instagram</a><br/>
+                            <a href="https://nftlostcats.company.site/">Company Site</a><br/>
                         </Des>
                     </DesContainer>
                 </MintContainer>

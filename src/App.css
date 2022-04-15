@@ -6,7 +6,9 @@
   --main-text-color:#F7F6F4;
   --title-text-color:#3CBA8B;
 }
-
+a{
+  color:lightcoral; text-decoration: none;
+}
 body{
   background-color:var(--main-background-color);
   /*background: url("img/background.png");
@@ -18,6 +20,7 @@ body{
 
 h2, p{
   color: var(--main-text-color);
+
 }
 
 h3{
