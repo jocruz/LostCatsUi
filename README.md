@@ -1,7 +1,20 @@
 # 🚀 Introduction
+# Lost Cats NFT Minting DApp
 
-## 📢 Coming Soon: Setup Multi-Mint!
-Learn how to set up Multi-Mint using this repository, with a detailed video explanation by 'Stractors'. Watch it [here](https://www.youtube.com/channel/UCf-oH3TIq8xHVtVogrpTm7g).
+## Overview
+The Lost Cats NFT Minting DApp allows users to mint unique digital assets, known as NFTs (Non-Fungible Tokens), on the Solana blockchain. Built with cutting-edge technology, this DApp leverages Solana's high-speed and low-cost transactions, providing an efficient and user-friendly experience.
+
+## Key Features
+- **Solana Integration**: Utilizes Solana's blockchain for fast and low-cost NFT minting.
+- **Metaplex & Candy Machine**: Powered by Metaplex's Candy Machine, offering a robust and flexible framework for NFT drops.
+- **Wallet Connectivity**: Supports multiple wallets, including Phantom, Slope, Solflare, Sollet, Solong, Ledger, and SafePal, for a seamless transaction experience.
+- **Responsive UI**: Ensures a smooth user experience across various devices and screen sizes.
+
+## Technology Stack
+- **React & TypeScript**: Front-end development with React for dynamic user interfaces, coupled with TypeScript for type safety.
+- **Material-UI**: Utilizes Material-UI for a sleek, modern look and feel.
+- **Anchor**: Leverages Anchor, a framework for Solana's Sealevel runtime, to facilitate smart contract interaction.
+- **Solana Web3.js**: Direct interaction with the Solana blockchain through JavaScript.
 
 ### 🌟 Features:
 - **Prod-ready Responsive UI**: Customize it easily in just 5 minutes!
