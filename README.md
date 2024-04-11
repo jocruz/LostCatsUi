@@ -1,33 +1,51 @@
-# Introduction
+# 🚀 Introduction
 
-### SOON : Setup Multi-Mint using this repository, explained in video by 'Stractors' https://www.youtube.com/channel/UCf-oH3TIq8xHVtVogrpTm7g
+## 📢 Coming Soon: Setup Multi-Mint!
+Learn how to set up Multi-Mint using this repository, with a detailed video explanation by 'Stractors'. Watch it [here](https://www.youtube.com/channel/UCf-oH3TIq8xHVtVogrpTm7g).
 
-**Prod-ready Responsive UI** which can be easily customized in 5mn.
-
-All Candy Machine V2 functionalities are implemented, auto detected and maintained up-to-date :
-
-- public mint (with countdown when date in future)
-- civic support (gatekeeper)
-- whitelist
-- presale true / false
-- end date / end number (endSettings)
-- spl-token to mint
+### 🌟 Features:
+- **Prod-ready Responsive UI**: Customize it easily in just 5 minutes!
+- **Full Candy Machine V2 Support**: All functionalities are auto-detected and kept up-to-date:
+  - Public mint (includes countdown for future dates)
+  - Civic support (gatekeeper)
+  - Whitelist functionality
+  - Presale options
+  - End date/number settings (endSettings)
+  - SPL-token minting capability
 
 ![Candy Machine Preview Image](https://i.ibb.co/h7L0M3G/repo-bg.png)
 
-### Supported Wallets
-
+### 🏦 Supported Wallets
 ![Supported Wallets](https://i.ibb.co/DC6Wt66/wallets.png)
 
-For instructions on how to set up a V2 candy machine, please refer to Metaplex's documentation [here](https://docs.metaplex.com/candy-machine-v2/Introduction)
+📚 For setup instructions for a V2 candy machine, please refer to [Metaplex's documentation](https://docs.metaplex.com/candy-machine-v2/Introduction).
 
-## One-Click Vercel Deployment
+## 🖱 One-Click Vercel Deployment
 
-One-click solution to clone this project to your GitHub and deploy the prod package on a Vercel.
-Your only task will be to customize your GitHub fork of this project and commit updates.
-Vercel will automatically deploy new prod packages for each new commit.
+Deploy the prod package instantly on Vercel with just one click! Simply customize your GitHub fork of this project and commit updates. Vercel will handle the deployment for each new commit.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FFulgurus%2Fcandy-machine-v2-responsive-ui&env=REACT_APP_CANDY_MACHINE_ID,REACT_APP_SOLANA_NETWORK,REACT_APP_SOLANA_RPC_HOST&envDescription=Populate%20REACT_APP_CANDY_MACHINE_ID%20with%20your%20candy%20machine%20public%20key%2C%20REACT_APP_SOLANA_NETWORK%20with%20the%20solana%20network%20(devnet%2Fmainnet-beta)%20and%20REACT_APP_SOLANA_RPC_HOST%20with%20the%20RPC%20URL%20(example%20for%20devnet%20%3A%20https%3A%2F%2Fapi.devnet.solana.com)&envLink=https%3A%2F%2Fdocs.solana.com%2Fcluster%2Frpc-endpoints%23mainnet-beta&demo-title=My%20Demo%20Mint%20Page&demo-description=A%20one-click%20generated%20solana%20minting%20responsive%20website.&demo-url=https%3A%2F%2Fwww.mintgatsbyclub.net%2F&demo-image=https%3A%2F%2Fi.imgur.com%2FWWSvkBO.png)
+
+## 🔧 Getting Set Up
+
+### Prerequisites
+
+**Node.js Version Requirement: <= 16** (Version 17 is not supported).
+
+- Download a code editor, like Visual Studio Code.
+- Ensure `nodejs` (recommended version 16) and `yarn` are installed.
+- Install the Solana Command Line Toolkit following [these instructions](https://docs.solana.com/cli/install-solana-cli-tools).
+- Install the Metaplex Command Line Utility as per [these instructions](https://hackmd.io/@levicook/HJcDneEWF). This is an advanced task, which will be simplified in the future.
+
+### 🛠 Installation
+
+#### 1. Fork the project & clone it. For example:
+
+```bash
+git clone https://github.com/Fulgurus/candy-machine-v2-responsive-ui.git
+```
+
+#### 2. Define your environment variables (`.env` file)
 
 ## Getting Set Up
 
